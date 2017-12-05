@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #94cca2;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+}
+
+.container {
+  margin-bottom: 3em;
+  min-width: 350px;
+
+}
+
+.game-title {
+  font-family: 'Vollkorn SC', helvetica;
+  font-size: 3.5em;
+  margin-top: .5em;
+  color: #333;
+  background-color: #cacca7;
+  display: inline-block;
+  padding: 0em .3em;
+  border-radius: 10px;
+  background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+  border-bottom: 2px solid #979b52;
+}
+
+.grid {
+  margin: .5em auto;
+  margin-top: 1em;
+  font-family: 'Scada', helvetica;
+  font-size: 1.2em;
+  background-color: rgba(206, 206, 206, .6);
+  width: 230px;
+  padding: .1em;
+  border-radius: 4px;
+}
+
+.input-size {
+  width: 310px;
+  margin: 1em auto;
+  margin-bottom: 2em;
+}
+
+#input_height {
+  border-radius: 5px 0 0 5px;
+  padding: .25em;
+  height: 26px;
+}
+
+#input_width {
+  border-radius: 0 5px 5px 0;
+  padding: .25em;
+  height: 26px;
+}
+
+.height-label {
+  margin-right: .25em;
+  background-color: #bf9e7e;
+  padding: 0 .5em;
+  border-radius: 5px;
+  color: #fcede0;
+}
+
+.width-label {
+  margin-left: .25em;
+  background-color: #bf9e7e;
+  padding: 0 .5em;
+  border-radius: 5px;
+  color: #fcede0;
+}
+
+table, tr, td {
+  border: 1px solid #555;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+tr {
+  height: 15px;
+}
+
+td {
+  width: 15px;
+}
+
+.pickColor {
+  display: inline-block;
+  font-family: 'Scada', helvetica;
+  font-size: 1em;
+  background-color: rgba(206, 206, 206, .6);
+  padding: .1em;
+  border-radius: 4px;
+  width: 190px;
+  margin: .5 auto;
+}
+
+#colorPicker {
+  margin: 0 auto .5em auto;
+  display: block;
+  border-radius: 5px;;
+  width: 35px;
+  height: 25px;
+  border: 1px solid #eee;
+}
+
+#submit {
+  background-color: #94b782;
+  border: 0 #fff solid;
+  padding: 0 7px;
+  height: 26px;
+
+}
+
+table {
+  border: 1px solid #000;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+}
+
+form {
+  font-family: Quicksand;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .game-title {
+    font-size: 2.75em;
+  }
+}
+
+@media (max-width: 431px) {
+  .game-title {
+    font-size: 2.45em;
+  }
+
+  @media (max-width: 387px) {
+    .game-title {
+      font-size: 2.25em;
+    }
+  }

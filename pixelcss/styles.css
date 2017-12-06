@@ -12,20 +12,17 @@ body {
 .container {
   margin-bottom: 3em;
   min-width: 350px;
-
 }
 
 .game-title {
   font-family: 'Vollkorn SC', helvetica;
   font-size: 3.5em;
   margin-top: .5em;
-  color: #333;
-  background-color: #cacca7;
+  color: #444;
+  background-color: rgba(202,204,167, .4);
   display: inline-block;
   padding: 0em .3em;
   border-radius: 10px;
-  background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
-  border-bottom: 2px solid #979b52;
 }
 
 .grid {
@@ -49,28 +46,41 @@ body {
   border-radius: 5px 0 0 5px;
   padding: .25em;
   height: 26px;
+  font-family: 'Scada', helvetica;
+  text-align: center;
 }
 
 #input_width {
   border-radius: 0 5px 5px 0;
   padding: .25em;
   height: 26px;
+  font-family: 'Scada', helvetica;
+  text-align: center;
 }
 
 .height-label {
   margin-right: .25em;
-  background-color: #bf9e7e;
+  background-color: rgba(255,255,255,.5);
   padding: 0 .5em;
   border-radius: 5px;
-  color: #fcede0;
+  color: #444444;
+  font-size: .85em;
+  margin-top: .25em;
+  font-family: 'Scada', helvetica;
+
 }
 
 .width-label {
   margin-left: .25em;
-  background-color: #bf9e7e;
+  background-color: rgba(255,255,255,.5);
   padding: 0 .5em;
   border-radius: 5px;
-  color: #fcede0;
+  color: #444444;
+  font-size: .85em;
+  margin-top: .25em;
+  font-family: 'Scada', helvetica;
+
+
 }
 
 table, tr, td {

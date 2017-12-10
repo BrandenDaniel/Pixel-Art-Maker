@@ -6,7 +6,7 @@
 body {
   text-align: center;
   background-color: #94cca2;
-  background-image: url("../pixelimg/small_steps.png");
+  background-image: url("../pixelimg/cloudy-day.png");
 }
 
 .container {
@@ -19,9 +19,10 @@ body {
   font-size: 3.5em;
   margin-top: .5em;
   color: #444;
-  background-color: rgba(202,204,167, .4);
+  background-color: rgba(0,0,0, .1);
   display: inline-block;
-  padding: 0em .3em;
+  padding: .2em .2em 0em .2em;
+  line-height: .85em;
   border-radius: 10px;
 }
 
@@ -59,24 +60,22 @@ body {
 }
 
 .height-label {
-  margin-right: .25em;
-  background-color: rgba(255,255,255,.5);
+  margin-right: -.25em;
   padding: 0 .5em;
   border-radius: 5px;
   color: #444444;
-  font-size: .85em;
+  font-size: .75em;
   margin-top: .25em;
   font-family: 'Scada', helvetica;
 
 }
 
 .width-label {
-  margin-left: .25em;
-  background-color: rgba(255,255,255,.5);
+  margin-left: -.25em;
   padding: 0 .5em;
   border-radius: 5px;
   color: #444444;
-  font-size: .85em;
+  font-size: .75em;
   margin-top: .25em;
   font-family: 'Scada', helvetica;
 
